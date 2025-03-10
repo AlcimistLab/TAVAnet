@@ -6,8 +6,8 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-	    <net-file value="home/telmat/TA-VANET/sumocfg/manhattangrid.net.xml"/>
-	    <route-files value="home/telmat/TA-VANET/sumocfg/manhattangrid.rou.xml"/>
+	    <net-file value="/home/alief/TA/TA-VANET/sumocfg/manhattangrid.net.xml"/>
+	    <route-files value="/home/alief/TA/TA-VANET/sumocfg/manhattangrid.rou.xml"/>
     </input>
 
 </configuration>

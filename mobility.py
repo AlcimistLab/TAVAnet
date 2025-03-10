@@ -187,7 +187,7 @@ def get_modulation_and_datarate(interface, ieee_standard):
  
 def getdatetime():
     """Get current date and time formatted."""
-    utc_now = pytz.utc.localize(datetime.datetime.utcnow())
+    utc_now = pytz.utc.localize(datetime.datetime.utc_now())
     currentDT = utc_now.astimezone(pytz.timezone("Asia/Jakarta"))
     DATIME = currentDT.strftime("%Y-%m-%d %H:%M:%S")
     return DATIME
